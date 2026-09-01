@@ -42,9 +42,9 @@ const times = ["9:00 am", "10:30 am", "12:00 pm", "1:30 pm", "3:00 pm", "4:30 pm
 
 function BookingPage() {
   const { service } = Route.useSearch();
-  const [selected, setSelected] = useState(service ?? services[0].id);
-  const [time, setTime] = useState(times[2]);
-  const current = services.find((s) => s.id === selected) ?? services[0];
+  const [selected, setSelected] = useState(service ?? services[0]!.id);
+  const [time, setTime] = useState(times[2]!);
+  const current = services.find((s) => s.id === selected) ?? services[0]!;
 
   return (
     <PageShell
