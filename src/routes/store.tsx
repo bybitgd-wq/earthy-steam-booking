@@ -9,16 +9,16 @@ import { products } from "@/data/catalog";
 export const Route = createFileRoute("/store")({
   head: () => ({
     meta: [
-      { title: "Herbal Store — Verdant Steam" },
+      { title: "Herbal Store — Zenshe Spa" },
       {
         name: "description",
         content:
           "Small-batch steam blends, foldable steam seats, womb massage oil and at-home ritual kits.",
       },
-      { property: "og:title", content: "Herbal Store — Verdant Steam" },
+      { property: "og:title", content: "Herbal Store — Zenshe Spa" },
       {
         property: "og:description",
-        content: "Shop steam blends, tools and at-home ritual kits from Verdant Steam.",
+        content: "Shop steam blends, tools and at-home ritual kits from Zenshe Spa.",
       },
     ],
   }),

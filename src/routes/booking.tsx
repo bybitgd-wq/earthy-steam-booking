@@ -22,16 +22,16 @@ export const Route = createFileRoute("/booking")({
   validateSearch: searchSchema,
   head: () => ({
     meta: [
-      { title: "Book a Steam Session — Verdant Steam" },
+      { title: "Book a Steam Session — Zenshe Spa" },
       {
         name: "description",
         content:
           "Choose your yoni steam service, date and time, and tell us about your cycle before you arrive.",
       },
-      { property: "og:title", content: "Book a Steam Session — Verdant Steam" },
+      { property: "og:title", content: "Book a Steam Session — Zenshe Spa" },
       {
         property: "og:description",
-        content: "Reserve a private herbal steam room at Verdant Steam.",
+        content: "Reserve a private herbal steam room at Zenshe Spa.",
       },
     ],
   }),

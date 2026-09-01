@@ -5,16 +5,16 @@ import { PageShell } from "@/components/site-shell";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About the Studio — Verdant Steam" },
+      { title: "About the Studio — Zenshe Spa" },
       {
         name: "description",
         content:
-          "Verdant Steam is a herbalist-led yoni steaming studio built on traditional practice and careful modern hygiene.",
+          "Zenshe Spa is a herbalist-led yoni steaming studio built on traditional practice and careful modern hygiene.",
       },
-      { property: "og:title", content: "About the Studio — Verdant Steam" },
+      { property: "og:title", content: "About the Studio — Zenshe Spa" },
       {
         property: "og:description",
-        content: "Meet the herbalists behind Verdant Steam and how we practise.",
+        content: "Meet the herbalists behind Zenshe Spa and how we practise.",
       },
     ],
   }),
@@ -39,7 +39,7 @@ function AboutPage() {
         />
         <div className="space-y-6 text-muted-foreground">
           <p>
-            Verdant Steam began in a back room with one steam seat, a pot of mugwort and a
+            Zenshe Spa began in a back room with one steam seat, a pot of mugwort and a
             waiting list of friends. Six years later we run six private rooms and mill our own
             blends, but the format hasn't changed: sit down, breathe out, be looked after.
           </p>
@@ -62,7 +62,7 @@ function AboutPage() {
             ))}
           </div>
           <p className="text-xs">
-            Verdant Steam offers wellness services. Nothing here is medical advice or a
+            Zenshe Spa offers wellness services. Nothing here is medical advice or a
             substitute for care from your doctor or midwife.
           </p>
         </div>

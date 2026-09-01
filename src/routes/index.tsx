@@ -9,13 +9,13 @@ import { services } from "@/data/catalog";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Verdant Steam — Herbal Yoni Steaming Studio" },
+      { title: "Zenshe Spa — Herbal Yoni Steaming Studio" },
       {
         name: "description",
         content:
-          "A quiet green studio for herbal yoni steaming, cycle support and postpartum restoration. Book a ritual in Lagos.",
+          "A quiet green studio for herbal yoni steaming, cycle support and postpartum restoration. Book a ritual in Tunis.",
       },
-      { property: "og:title", content: "Verdant Steam — Herbal Yoni Steaming Studio" },
+      { property: "og:title", content: "Zenshe Spa — Herbal Yoni Steaming Studio" },
       {
         property: "og:description",
         content: "Herbal yoni steaming, cycle support and postpartum care in a calm green room.",
@@ -74,12 +74,12 @@ function Home() {
 
         <div className="relative mx-auto max-w-6xl px-5 py-24 sm:py-32">
           <div className="max-w-xl">
-            <p className="eyebrow">Herbal yoni steaming · Lagos</p>
+            <p className="eyebrow">Herbal yoni steaming · Tunis</p>
             <h1 className="mt-4 text-4xl leading-[1.05] sm:text-6xl">
               Warmth, herbs and a room that lets you exhale.
             </h1>
             <p className="mt-5 text-base text-muted-foreground sm:text-lg">
-              Verdant Steam blends traditional yoni steaming with modern hygiene practice —
+              Zenshe Spa blends traditional yoni steaming with modern hygiene practice —
               cycle-timed sessions, postpartum restoration and rituals built around your body.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">

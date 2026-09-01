@@ -10,16 +10,16 @@ import { Textarea } from "@/components/ui/textarea";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact & Studio Hours — Verdant Steam" },
+      { title: "Contact & Studio Hours — Zenshe Spa" },
       {
         name: "description",
         content:
-          "Visit our Lekki studio, call us, or send a question about blends, memberships and postpartum steaming.",
+          "Visit our La Marsa studio, call us, or send a question about blends, memberships and postpartum steaming.",
       },
-      { property: "og:title", content: "Contact & Studio Hours — Verdant Steam" },
+      { property: "og:title", content: "Contact & Studio Hours — Zenshe Spa" },
       {
         property: "og:description",
-        content: "Reach the Verdant Steam team about sessions, blends and memberships.",
+        content: "Reach the Zenshe Spa team about sessions, blends and memberships.",
       },
     ],
   }),
@@ -62,10 +62,10 @@ function ContactPage() {
 
         <div className="space-y-4">
           {[
-            { icon: MapPin, label: "Studio", value: "14 Willow Court, Lekki Phase 1, Lagos" },
+            { icon: MapPin, label: "Studio", value: "12 Rue de Carthage, La Marsa, Tunis" },
             { icon: Clock, label: "Hours", value: "Tue – Sun, 9:00am – 7:00pm (closed Mondays)" },
-            { icon: Phone, label: "Phone", value: "+234 800 111 2233" },
-            { icon: Mail, label: "Email", value: "hello@verdantsteam.com" },
+            { icon: Phone, label: "Phone", value: "+216 20 123 456" },
+            { icon: Mail, label: "Email", value: "hello@zenshespa.com" },
           ].map(({ icon: Icon, label, value }) => (
             <div
               key={label}
