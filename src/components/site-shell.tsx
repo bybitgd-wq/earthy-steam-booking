@@ -16,14 +16,14 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-border/70 bg-background/85 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-primary/10 bg-primary/[0.04] backdrop-blur dark:bg-background/85">
       <div className="mx-auto grid max-w-6xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-4">
         <Link to="/" className="flex min-w-0 items-center gap-2">
           <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-primary text-primary-foreground">
             <Leaf className="h-4 w-4" />
           </span>
           <span className="truncate font-display text-lg leading-none">
-            Verdant Steam
+            Zenshe Spa
             <span className="block text-[0.6rem] tracking-[0.22em] text-muted-foreground uppercase">
               Yoni wellness studio
             </span>
@@ -86,7 +86,7 @@ export function SiteFooter() {
     <footer className="mt-24 border-t border-border bg-secondary/40">
       <div className="mx-auto grid max-w-6xl gap-8 px-5 py-12 sm:grid-cols-3">
         <div>
-          <p className="font-display text-lg">Verdant Steam</p>
+          <p className="font-display text-lg">Zenshe Spa</p>
           <p className="mt-2 text-sm text-muted-foreground">
             Herbal yoni steaming, ritual care and cycle support in a quiet green room.
           </p>
@@ -105,13 +105,13 @@ export function SiteFooter() {
         </div>
         <div className="text-sm text-muted-foreground">
           <p className="eyebrow">Studio</p>
-          <p className="mt-3">14 Willow Court, Lekki, Lagos</p>
+          <p className="mt-3">12 Rue de Carthage, La Marsa, Tunis</p>
           <p>Tue – Sun, 9am – 7pm</p>
-          <p className="mt-2">hello@verdantsteam.com</p>
+          <p className="mt-2">hello@zenshespa.com</p>
         </div>
       </div>
       <p className="border-t border-border/70 px-5 py-4 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Verdant Steam. Wellness services, not medical treatment.
+        © {new Date().getFullYear()} Zenshe Spa. Wellness services, not medical treatment.
       </p>
     </footer>
   );
