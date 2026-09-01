@@ -81,14 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Verdant Steam — Herbal Yoni Steaming Studio" },
+      { title: "Zenshe Spa — Herbal Yoni Steaming Studio" },
       {
         name: "description",
         content:
           "Herbal yoni steaming, cycle support and postpartum care in a calm, earthy studio.",
       },
-      { name: "author", content: "Verdant Steam" },
-      { property: "og:title", content: "Verdant Steam — Herbal Yoni Steaming Studio" },
+      { name: "author", content: "Zenshe Spa" },
+      { property: "og:title", content: "Zenshe Spa — Herbal Yoni Steaming Studio" },
       {
         property: "og:description",
         content: "Book a private herbal steam session, shop blends or join a membership.",

@@ -9,13 +9,13 @@ import { memberships, services } from "@/data/catalog";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services & Memberships — Verdant Steam" },
+      { title: "Services & Memberships — Zenshe Spa" },
       {
         name: "description",
         content:
           "Classic, cycle reset, postpartum and ritual yoni steam sessions, plus monthly membership plans.",
       },
-      { property: "og:title", content: "Services & Memberships — Verdant Steam" },
+      { property: "og:title", content: "Services & Memberships — Zenshe Spa" },
       {
         property: "og:description",
         content: "Explore our yoni steam menu and monthly membership plans.",
