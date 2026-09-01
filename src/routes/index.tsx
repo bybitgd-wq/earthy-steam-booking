@@ -54,17 +54,22 @@ function Home() {
                 width={912}
                 height={1200}
                 className="h-full w-full object-cover object-center"
+                loading={i === 0 ? "eager" : "lazy"}
               />
             </div>
           ))}
         </div>
         <div
           aria-hidden="true"
-          className="absolute inset-0 bg-background/80 dark:bg-background/85"
+          className="absolute inset-0 bg-background/25 dark:bg-background/45"
         />
         <div
           aria-hidden="true"
-          className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background"
+          className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/20 sm:to-background/10"
+        />
+        <div
+          aria-hidden="true"
+          className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-background"
         />
 
         <div className="relative mx-auto max-w-6xl px-5 py-24 sm:py-32">
